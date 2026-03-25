@@ -21,6 +21,13 @@ python3 -m http.server 4173
 ./scripts/check-conflicts.sh
 ```
 
+If GitHub shows merge conflicts for this PR branch, resolve them locally:
+
+```bash
+# after `git merge ...` or `git rebase ...` reports conflicts
+./scripts/resolve-pr-conflicts.sh
+```
+
 ## What was implemented
 - Extracted inline styles and Tailwind config into dedicated files.
 - Added mobile navigation with accessible controls.
