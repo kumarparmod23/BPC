@@ -16,6 +16,11 @@ python3 -m http.server 4173
 # then open http://localhost:4173
 ```
 
+## Conflict safety check
+```bash
+./scripts/check-conflicts.sh
+```
+
 ## What was implemented
 - Extracted inline styles and Tailwind config into dedicated files.
 - Added mobile navigation with accessible controls.
