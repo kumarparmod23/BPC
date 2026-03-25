@@ -1,0 +1,26 @@
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+.glass-nav {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+}
+.hero-gradient {
+  background: linear-gradient(135deg, #00685e 0%, #008376 100%);
+}
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -100px;
+  background: #fff;
+  color: #00685e;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0.5rem;
+}
+details summary::-webkit-details-marker { display: none; }
+details[open] summary .expand-icon { transform: rotate(180deg); }
